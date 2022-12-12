@@ -1,0 +1,117 @@
+@import url('https://chandara.keybase.pub/Resources/bare-bones.min.css');
+
+html,body {
+	margin: 0;
+	padding: 2rem 0;
+	font-size: 5mm;
+}
+
+header {
+	padding: 0 3rem 1rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header h1 {
+	font-weight: bolder;
+	align-self: center;
+	font-size: 10mm;
+}
+
+header div {
+	flex: 1;
+}
+
+header h1,header h4 {
+	margin: 0;
+	padding: 0;
+}
+
+header p,header p * {
+	text-align: justify;
+}
+
+header p a {
+	font-style: oblique;
+}
+
+li i span {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	display: inline-block;
+	transform: translateY(4px);
+}
+
+li {
+	padding-left: 3rem;
+	padding: 02rem;
+	margin: .66rem 0rem;
+}
+
+li label {
+	padding: 02mm;
+}
+
+ul {
+	padding: 0;
+	margin: 00010mm;
+	list-style: none;
+}
+
+li:hover span {
+	max-width: 100% !important;
+}
+
+table {
+	margin: 03rem 1rem;
+	border-spacing: 0;
+	width: auto;
+}
+
+@media only screen and (max-width:1200px) {
+	table {
+		width: calc(100vw-6rem);
+	}
+}
+
+thead th {
+	border-bottom: 1px solid gray;
+	text-align: left;
+	font-size: 11pt;
+}
+
+table:is(td,th) {
+	text-align: left;
+}
+
+table tbody tr,table tbody tr td {
+	transition: transform 300ms,background 50ms;
+}
+
+table tbody tr:hover {
+	box-shadow: 0px 3px 4px #0000002e;
+	outline: 1px solid #0000000f;
+	border-radius: 2px;
+	transform: translateX(1rem);
+}
+
+table tbody tr:hover td {
+	background: white;
+}
+
+table tbody tr:hover td {
+	border: 0 !important;
+}
+
+td:last-child {
+	border-left: 1px solid gray;
+}
+
+table th {
+	padding: .5rem .5rem;
+}
+
+table td {
+	padding: .25rem .5rem;
+}

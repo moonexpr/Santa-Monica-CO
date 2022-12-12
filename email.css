@@ -1,0 +1,117 @@
+@font-face {
+	font-family: 'Cooper Black LT';
+    src: url('https://chandara.keybase.pub/Resources/Cooper%20Black/cooperl.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cooper Black LT';
+    src: url('https://chandara.keybase.pub/Resources/Cooper%20Black/cooperli.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+html, body {
+	font-family: 'Cooper Black LT', serif;
+}
+
+
+/* Main Styling */
+/*@media (prefers-color-scheme: dark) {
+	:root {
+	  --bg: #240e2f;
+	  --fg: #FFF28B;
+	  --alt: #FFB88B;
+	  --light: #FFB88B;
+	}
+}*/
+
+:root {
+    /*
+    --bg: #fef49c;
+    --fg: #2c2e48;
+     */
+    --bg: #fef7e1;
+    --fg: black;
+    --alt: #3c603b;
+    --light: #fec19c; 
+}
+
+html, body {
+    color: var(--fg);
+    background-color: var(--bg);
+}
+
+i {
+    color: var(--alt);
+}
+
+a {
+	text-decoration: none;
+}
+
+a label {
+    cursor: pointer;
+}
+
+p {
+    margin: 8px 0;
+}
+
+h1 {
+    font-family: 'Cooper Black', serif;
+}
+
+header h1 a, header h4 a { 
+    color: var(--fg) !important
+}
+header p a { 
+    color: var(--alt) !important
+}
+
+header h4 {  
+    font-weight: normal;
+}
+
+header p, header p * {
+    color: var(--alt);
+}
+
+
+li {
+	transition: 100ms background, 200ms padding;
+    font-weight: medium;
+}
+
+li label {
+    font-weight: bolder;
+}
+
+li i {
+    font-weight: normal;
+}
+
+li * {
+	cursor: pointer;
+}
+
+li .hide {
+	display: none;
+}
+
+
+li:hover label {
+    border: 1px solid var(--light);
+
+}
+
+li:hover i {
+	color: var(--fg) !important;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+}
