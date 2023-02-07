@@ -66,7 +66,7 @@ root.setAttribute("xmlns", "http://www.sitemaps.org/schemas/sitemap/0.9")
 root.setAttribute("xmlns:image", "http://www.google.com/schemas/sitemap-image/1.1")
 root.setAttribute("xmlns:xhtml", "http://www.w3.org/1999/xhtml")
 
-pi_style = D.createProcessingInstruction("xml-stylesheet", "type=\"text/xsl\" href=\"/resources/sitemap_style.xsl\"")
+pi_style = D.createProcessingInstruction("xml-stylesheet", "type=\"text/xsl\" href=\"/Resources/sitemap_style.xsl\"")
 D.insertBefore(pi_style, D.firstChild)
 
 for public_path in pubfiles:

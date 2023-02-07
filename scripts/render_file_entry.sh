@@ -8,7 +8,8 @@ fi
 
 ################################################################################
 
-RESOURCE_PATH="/Resources/thumbnails/"
+## RESOURCE_PATH="/Resources/thumbnails/"
+RESOURCE_PATH="https://github.com/wholesome-wiz/Santa-Monica-CO/raw/main/thumbnails/"
 
 DEFAULT="icons8-file-48.png"
 

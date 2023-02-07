@@ -1,57 +1,76 @@
-/* Fonts */
+/**
+ *  Cooper Black
+ *   - coopbla.ttf
+ *   - coopbli.ttf
+ **/
+
 @font-face {
-	font-family: 'Cooper Black';
+	font-family: 'Cooper BlkHd BT';
     src: url('Cooper Black/coopbla.ttf');
     font-weight: bolder;
     font-style: normal;
 }
 
 @font-face {
-	font-family: 'Cooper Black';
+	font-family: 'Cooper BlkIt BT';
     src: url('Cooper Black/coopbli.ttf');
     font-weight: bolder;
     font-style: italic;
 }
 
-@font-face {
-	font-family: 'Cooper Black';
-    src: url('Cooper Black/cooperb.ttf');
-    font-weight: bold;
-    font-style: normal;
-}
+/**
+ *  Cooper Medium
+ *   - cooperm.ttf
+ *   - coopermi.ttf
+ **/
 
 @font-face {
-	font-family: 'Cooper Black';
-    src: url('Cooper Black/cooperbi.ttf');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-	font-family: 'Cooper Black';
+	font-family: 'Cooper Md BT';
     src: url('Cooper Black/cooperm.ttf');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-	font-family: 'Cooper Black';
+	font-family: 'Cooper Md BT';
     src: url('Cooper Black/coopermi.ttf');
     font-weight: 400;
     font-style: italic;
 }
 
+/**
+ *  Cooper Light
+ *   - cooperb.ttf
+ *   - cooperbi.ttf
+ *   - cooperl.ttf
+ *   - cooperli.ttf
+ **/
+
 @font-face {
-	font-family: 'Cooper Black LT';
-    src: url('Cooper Black/cooperl.ttf');
-    font-weight: 300;
+	font-family: 'Cooper Lt BT';
+    src: url('Cooper Black/cooperb.ttf');
+    font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-	font-family: 'Cooper Black LT';
+	font-family: 'Cooper Lt BT';
+    src: url('Cooper Black/cooperbi.ttf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: 'Cooper Lt BT';
+    src: url('Cooper Black/cooperl.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cooper Lt BT';
     src: url('Cooper Black/cooperli.ttf');
-    font-weight: 300;
+    font-weight: 400;
     font-style: italic;
 }
 

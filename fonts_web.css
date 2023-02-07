@@ -1,0 +1,42 @@
+/**
+ *  Cooper Light
+ *   - cooperb.woff
+ *   - cooperbi.woff
+ *   - cooperl.woff
+ *   - cooperli.woff
+ **/
+
+@font-face {
+	font-family: 'Cooper Lt BT';
+    src: url('Cooper Black/cooperb.woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cooper Lt BT';
+    src: url('Cooper Black/cooperbi.woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: 'Cooper Lt BT';
+    src: url('Cooper Black/cooperl.woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cooper Lt BT';
+    src: url('Cooper Black/cooperli.woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&display=swap'); */
+
+html, body {
+	font-family: 'Cooper Black LT', serif;
+}
+

@@ -1,19 +1,36 @@
-@font-face {
-	font-family: 'Cooper Black LT';
-    src: url('https://chandara.keybase.pub/Resources/Cooper%20Black/cooperl.ttf');
-    font-weight: normal;
+/*@font-face {
+	font-family: 'Cooper Lt BT';
+    src: url('Cooper Black/cooperb.woff');
+    font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-	font-family: 'Cooper Black LT';
-    src: url('https://chandara.keybase.pub/Resources/Cooper%20Black/cooperli.ttf');
-    font-weight: normal;
+	font-family: 'Cooper Lt BT';
+    src: url('Cooper Black/cooperbi.woff');
+    font-weight: bold;
     font-style: italic;
 }
 
+@font-face {
+	font-family: 'Cooper Lt BT';
+    src: url('Cooper Black/cooperl.woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cooper Lt BT';
+    src: url('Cooper Black/cooperli.woff');
+    font-weight: 400;
+    font-style: italic;
+}
+*/
+
+@import url(fonts_web.css);
+
 html, body {
-	font-family: 'Cooper Black LT', serif;
+	font-family: 'Cooper Lt BT', serif;
 }
 
 
@@ -30,7 +47,8 @@ html, body {
 :root {
     /*--bg: #fef49c;
     --fg: #2c2e48;*/
-    --bg: #fef7e1;
+    /*--bg: #fef7e1;*/
+    --bg: #fcfed7;
     --fg: black;
     --alt: #3c603b;
     --light: #fec19c; 
@@ -58,7 +76,7 @@ p {
 }
 
 h1 {
-    font-family: 'Cooper Black', serif;
+    font-family: 'Cooper Lt BT', serif;
 }
 
 header h1 a, header h4 a { 
